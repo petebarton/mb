@@ -32,9 +32,9 @@ public class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	 @Override
 	 public void onDraw(Canvas canvas) {
 		 Paint paint = new Paint();
-		 Bitmap kangoo = BitmapFactory.decodeResource(getResources(), R.drawable.kangoo);
+		 Bitmap spidermant = BitmapFactory.decodeResource(getResources(), R.drawable.spidermant);
 		 canvas.drawColor(Color.BLACK);
-		 canvas.drawBitmap(kangoo, 10, 10, null);
+		 canvas.drawBitmap(spidermant, 10, 10, null);
 	 }
 	 
 
