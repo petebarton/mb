@@ -4,6 +4,10 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+<com.freeborrow.mb.Panel android:id="@+id/SurfaceView01" android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:maxHeight="40dip">
+	</com.freeborrow.mb.Panel>
 <TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
