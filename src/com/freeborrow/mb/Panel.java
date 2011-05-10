@@ -33,8 +33,11 @@ public class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	 public void onDraw(Canvas canvas) {
 		 Paint paint = new Paint();
 		 Bitmap spidermant = BitmapFactory.decodeResource(getResources(), R.drawable.spidermant);
-		 canvas.drawColor(Color.BLACK);
-		 canvas.drawBitmap(spidermant, 10, 10, null);
+		 Bitmap ico = BitmapFactory.decodeResource(getResources(), R.drawable.icon);
+		 canvas.drawBitmap(ico, 10, 10, null);
+		 canvas.drawColor(Color.GREEN);
+		 canvas.drawBitmap(spidermant, 15, 15, null);
+		 canvas.drawCircle(50, 50, 20, paint);
 	 }
 	 
 
